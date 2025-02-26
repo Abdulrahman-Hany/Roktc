@@ -606,6 +606,9 @@ html[style*="direction: ltr"] .titel-img-banner{
   left: 8%;
   right: unset;
 }
+html[style*="direction: ltr"] .Union-privacy-policy-top {
+  display: none;
+}
 /*========= wrapper-sectio ==========*/
 .wrapper-sectio {
   display: flex;
