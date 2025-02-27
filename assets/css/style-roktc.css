@@ -1662,6 +1662,9 @@ input.check-toggle-round-flat:checked+label:after {
   .titel-img-banner h2{
   line-height: 50px;
 }
+    html[style*="direction: ltr"] .titel-img-banner {
+    left: 5%;
+  }
 }
 
 @media(max-width: 780px) {
@@ -1970,6 +1973,9 @@ input.check-toggle-round-flat:checked+label:after {
 .sector-description {
   text-align: justify;
 }
+  html[style*="direction: ltr"] .titel-img-banner {
+    left: 2%;
+  }
 }
 
 @media(max-width: 380px) {
